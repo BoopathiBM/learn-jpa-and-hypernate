@@ -1,9 +1,11 @@
-package com.boopathi.springboot.learn_jpa_and_hypernate;
+package com.boopathi.springboot.learn_jpa_and_hypernate.course.jdbc;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.BeanPropertyRowMapper;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Repository;
+
+import com.boopathi.springboot.learn_jpa_and_hypernate.course.Course;
 
 
 @Repository
